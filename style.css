@@ -1,0 +1,136 @@
+/* Set global styles for the website */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    display: block;
+  }
+  
+  /* Style the header section */
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header h2 {
+    margin: 10px 0 0;
+    font-size: 24px;
+  }
+  
+  /* Style the navigation menu */
+  
+  nav {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Style the main content sections */
+  
+  main {
+    padding: 50px;
+  }
+  
+  section h3 {
+    margin-top: 0;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  section li h4 {
+    margin: 0;
+  }
+  
+  section li p {
+    margin: 0;
+  }
+  
+  /* Style the contact information section */
+  
+  #contact-me {
+    background-color: #eee;
+    padding: 50px;
+  }
+  
+  #contact-me ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact-me li {
+    margin-bottom: 10px;
+  }
+  
+  #contact-me a {
+    color: #222;
+  }
+  
+  #contact-me a:hover {
+    color: #007bff;
+  }
+  
+  /* Style the footer section */
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
